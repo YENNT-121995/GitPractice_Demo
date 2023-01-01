@@ -1,2 +1,12 @@
 git fetch
 Git được sử dụng để làm việc nhóm, quản lý mã nguồn. Ngoài những commit của bạn thì còn vô số commit khác của các thành viên khác trong team. Sử dụng git fetch sẽ giúp chúng ta cập nhật tất cả những thông tin mới như commit, branch, v.v.
+
+git stash
+Git stash cho phép chúng ta lưu trữ các file được chỉnh sửa trong vùng nhớ tạm.
+$ git stash 
+
+Nếu muốn xem tất cả các stash các bạn có thể sử dụng lệnh
+$ git stash list 
+
+Nếu bạn muốn áp dụng các chỉnh sửa trong một stash nào đó lên branch hiện tại đang sử dụng.
+$ git stash apply  or $ git stash pop

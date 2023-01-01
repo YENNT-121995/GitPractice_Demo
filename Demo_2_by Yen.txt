@@ -1,3 +1,6 @@
 Git clone
 git add
 git commit
+git push
+git branch
+git branch < new branch>

@@ -4,3 +4,6 @@ git commit
 git push
 git branch
 git branch < new branch>
+git stash
+git checkout
+git merge < branch>
